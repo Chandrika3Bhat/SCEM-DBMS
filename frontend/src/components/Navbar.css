@@ -1,0 +1,135 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hamburger menu */
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: #333;
+      padding: 10px 0;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  }
+  .nav-links a:hover {
+    color: #a033bb; /* Example color on hover */
+    text-decoration: underline;
+  }
+    /* Header */
+/* Set the background image to cover the entire page */
+
+/* Set the background image to cover the entire page */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure the body takes full height */
+  background-image: url('https://path-to-your-image.jpg'); /* Add your image URL here */
+  background-size: cover; /* Make the background image cover the entire page */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust header height */
+  padding: 20px;
+  background-color: rgba(0, 51, 102, 0.7); /* Dark blue background with opacity for contrast */
+  color: white;
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  flex-direction: column; /* Stack logo and name vertically */
+  align-items: center;
+  margin-bottom: 30px; /* Adjust space between logo and buttons */
+  margin-top: 30px; /* Add margin-top to move logo down */
+}
+
+/* College Logo Styles */
+.college-logo {
+  height: 100px; /* Adjust logo size */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* College Name Styles */
+.college-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Authentication Links */
+.auth-links {
+  display: flex; /* Use flexbox to align buttons side by side */
+  justify-content: center;
+  gap: 20px; /* Space between the buttons */
+  margin-top: 20px; /* Space above the buttons */
+}
+
+.auth-links a {
+  color: white;
+  background-color: #003366; /* Background color for the buttons */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 150px; /* Adjust width to make the buttons smaller */
+  text-align: center;
+}
+
+.auth-links a:hover {
+  background-color: #f4f4f9; /* Change background on hover */
+  color: #003366; /* Text color on hover */
+}

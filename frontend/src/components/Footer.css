@@ -1,0 +1,27 @@
+/* Footer */
+.footer {
+    background-color: #003366; /* Dark blue background */
+    color: #f4f4f9;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-links {
+    margin-bottom: 10px;
+  }
+  
+  .social-icon {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    filter: invert(100%);
+  }
+  
+  .social-icon:hover {
+    filter: invert(40%);
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+  }
+  

@@ -1,0 +1,62 @@
+.event-add-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-add-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .event-add-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event-add-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .event-add-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .event-add-container input,
+  .event-add-container textarea,
+  .event-add-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .event-add-container button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .event-add-container button:hover {
+    background-color: #218838;
+  }
+  
+  .message {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #28a745;
+    font-weight: bold;
+  }
+  

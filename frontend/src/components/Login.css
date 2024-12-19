@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://w0.peakpx.com/wallpaper/1/1023/HD-wallpaper-bright-blue-for-website-banner-abstract-geometric-pattern-with-line-connection-and-light-particle-structure-of-energy-or-global-space-5490647-vector-art-at-vecteezy.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Make the background cover the entire viewport */
+  margin: 0;
+  padding: 0;
+}
+
+/* Login Page Styles */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background to make text readable */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.submit-btn {
+  background-color: #003366;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.submit-btn:hover {
+  background-color: #00509e;
+}
